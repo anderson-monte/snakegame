@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'raffles';
+  src: url(./fonts/raffles_bryant/RafflesBryant.otf) format('opentype'),
+    url(./fonts/raffles_bryant/RafflesBryantRegular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'raffles', Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #094a08;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#game-board {
+  background: #ccc;
+  height: 85vmin;
+  width: 120vmin;
+  display: grid;
+  
+  background-image: url(./img/snake_board.png);
+
+  grid-template-rows: repeat(25, 1fr);
+  grid-template-columns: repeat(25, 1fr);
+}
+
+.snake {
+  background-image: url(./img/snake_head.png);
+  background-size: cover;
+  height: 30px;
+}
+
+.snake-body {
+  background-image: url(./img/snake_body.png);
+  background-size: cover;
+  height: 32px;
+}
+
+.food {
+  background-image: url(./img/food.png);
+  background-size: cover;
+  height: 25px;
+}
+
+.init {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+#play {
+  width: 100px;
+  height: 100px;
+}
+
+button:hover {
+  border-width: 8px;
+  border-color: black;
+}
