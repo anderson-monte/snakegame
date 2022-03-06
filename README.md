@@ -8,13 +8,12 @@
   <img  style="width: 500px;height: 400px;" src="./img/gifsnake.gif">
 </p>
 
-<h2>
+
 <p align="center">
   <img alt="HTML" src="https://img.shields.io/badge/HTML-blue?style=flat&logo=html5">
   <img alt="CSS" src="https://img.shields.io/badge/CSS-purple?style=flat&logo=css3">
   <img alt="JS" src="https://img.shields.io/badge/JAVASCRIPT-yellow?style=flat&logo=javascript&logoColor=white">
 </p>
-</h2>
 
 ## Description
 
